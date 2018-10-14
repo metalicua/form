@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #1e5799; 
+    background: -moz-linear-gradient(45deg, #1e5799 0%, #ff512f 0%, #dd2276 94%); 
+    background: -webkit-linear-gradient(45deg, #1e5799 0%,#ff512f 0%,#dd2276 94%); 
+    background: linear-gradient(45deg, #1e5799 0%,#ff512f 0%,#dd2276 94%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#dd2276',GradientType=1 ); 
+    font-family: 'Arial', sans-serif; 
+}
+
+.grid {
+	width: 461px;
+	margin: 0 auto;
+	
+}
+
+.conteinter {
+	margin-top: 60px;
+	padding: 31px;
+	border-radius: 4px;
+	-webkit-box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.2);
+	box-shadow: 10px 10px 21px 0px rgba(0,0,0,0.2);
+	background-color: #fff;
+	color: #7a7b7f;
+}
+
+.link {
+	text-decoration: none;
+	color: #ea355a;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+/*form header*/
+
+.form-header__title {
+	padding-bottom: 11px;
+	font-size: 0.75em;
+	line-height: 1;
+	font-weight: 700;
+	color: #1b1c1d;
+}
+
+.form-header__logo {
+	margin-right: 9px;
+	float: left;
+	
+}
+
+.form-header__discription {
+	padding-bottom: 31px;
+	font-size: 0.84em;
+	line-height: 1.5;
+	
+}
+
+/*end of form header*/
+
+/*main form*/
+
+.main-form {
+	display: inline-block;
+	clear: both;
+	margin-left: -8px;
+	margin-right: -8px;
+
+}
+
+.column {
+	padding: 0 8px 11px 8px;
+	width: 100%;
+	float: left;
+}
+
+.column:last-child {
+	padding-bottom: 21px;
+}
+
+.column-1-2 {
+	width: 50%;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+.column input[placeholder] {
+	border: none;
+	border-radius: 4px;
+	font-size: 0.85em;
+	width: 100%;
+	padding: 14px;
+	background-color: #f0f0f0;
+}
+
+.main-form__btn {
+	width: 100%;
+	margin: 2px 0 12px;
+	padding: 16px 132px;
+	border: none;
+	font-size: 1em;
+	font-weight: 700;
+	letter-spacing: 1px;
+	border-radius: 4px;
+	cursor: pointer;
+	color: #fff;
+	background-color: #ea355a;
+	-webkit-box-shadow: 0px 3px 3px 0px rgba(189,25,99,1);
+	-moz-box-shadow: 0px 3px 3px 0px rgba(189,25,99,1);
+	box-shadow: 0px 3px 3px 0px rgba(189,25,99,1);
+
+}
+
+.main-form__discription {
+	font-size: 0.84em;
+	line-height: 1.5;
+	letter-spacing: -0.5px
+}
+/*end of main form*/
